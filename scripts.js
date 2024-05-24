@@ -1,9 +1,13 @@
 // A list of provinces:
 const provinces = ['Western Cape', 'Gauteng', 'Northern Cape', 'Eastern Cape', 'KwaZulu-Natal', 'Free State']
 
-// A list of names:
-const names = ['Ashwin', 'Sibongile', 'Jan-Hendrik', 'Sifso', 'Shailen', 'Frikkie']
 
+// A list of names:
+const names = ['Ashwin', 'Sibongile', 'Jan-Hendrik', 'Sifso', 'Shailen', 'Frikkie'] 
+
+names.forEach((name, index) => console.log (`${name} (${provinces[index]})`) ); 
+
+/*
 // A list of products with prices:
 const products = [
   { product: 'banana', price: "2" },
@@ -13,3 +17,5 @@ const products = [
   { product: 'coffee', price: 10 },
   { product: 'tea', price: '' },
 ]
+
+*
