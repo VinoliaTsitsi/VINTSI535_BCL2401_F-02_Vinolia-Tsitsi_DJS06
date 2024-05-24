@@ -9,6 +9,12 @@ names.forEach((name, index) => {
   console.log (`${name} (${provinces[index]})`)
  }); 
 
+ const uppercaseProvinces = provinces.map(province => province.toUpperCase()); 
+
+ console.log(uppercaseProvinces); 
+
+
+
 /*
 // A list of products with prices:
 const products = [
